@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int range,num;
+   cout<<"Enter the Range = ";
+   cin>>range;
+   cout<<"\n"<<"Enter the number to print the Table = ";
+   cin>>num;
+   
+   int sum=0;
+   
+   cout<<"\n"<<"Range = "<<range<<" & number = "<<num<<"\n"<<endl;
+   
+   for(int y=1; y<=range; y++)
+   {
+       sum=y*num;
+       cout<<num<<" * "<<y<<" = "<<sum<<"\n";
+   }
+   
+   
+    return 0;
+}
